@@ -1,5 +1,6 @@
 let example = 'Hello World Hello';
 
-console.log(example.replace( /Hello/g, 'Goodbye'));
+console.log(example.search(/world/gi));
 
-// g => global
+// g -> global
+// if doesn't exist -> -1 
