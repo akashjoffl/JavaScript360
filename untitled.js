@@ -1,10 +1,3 @@
-let example = 'Hello World';
-let example2 = example.slice(0,4);
+let example1 = 'Hello, World';
 
-console.log(example2);
-console.log(example);
-
-
-
-// g -> global
-// if doesn't exist -> -1 
+console.log(example1.split(','))
