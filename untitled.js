@@ -1,4 +1,4 @@
-let example1 = 'Hello, World';
+let example1 = '    Hello, World    ';
 
-console.log(example1.toLowerCase())
-console.log(example1.toUpperCase());
+console.log(example1.trimLeft());
+console.log(example1.trimRight());
