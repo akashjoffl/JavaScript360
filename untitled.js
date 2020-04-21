@@ -1,7 +1,4 @@
 let example1 = 111;
 
-console.log(typeof example1);
-
-let toString = example1.toString();
-
-console.log(typeof toString);
+console.log(Number.MAX_VALUE);
+console.log(Number.MAX_VALUE)
