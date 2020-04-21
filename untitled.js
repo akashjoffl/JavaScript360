@@ -1,8 +1,5 @@
-let example1 = 1.11;
+let example1 = 11.10;
 
-console.log(Number.isSafeInteger(1));
-console.log(Number.isSafeInteger(Infinity));
-console.log(Number.isSafeInteger(Math.pow(2, 25)));
-console.log(Number.isSafeInteger(example1));
+console.log(parseFloat(example1));
 
-// check if it's a integer
+// parses the Args and returns a floating point number
