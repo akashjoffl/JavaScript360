@@ -1,7 +1,6 @@
-let example1 = 111;
+let example1 = 1.11;
 
-console.log(Number.isFinite(example1))
-console.log(Number.isFinite('hello'))
-console.log(Number.isFinite('0'))
+console.log(Number.isInteger(example1));
 
-// to check whether we have Finite number or not 
+
+// checking whole numbers true || false boolean
