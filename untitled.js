@@ -1,4 +1,7 @@
-let example1 = '    Hello, World    ';
+let example1 = 111;
 
-console.log(example1.trimLeft());
-console.log(example1.trimRight());
+console.log(typeof example1);
+
+let toString = example1.toString();
+
+console.log(typeof toString);
