@@ -1,12 +1,12 @@
-let example1 = [1, 2, 3, 4, 5].find((element) => {
-    return element > 4;
+let example1 = [1, 2, 3, 4, 5].findIndex((element) => {
+    return element > 3;
 })
 
 
 // let result = 
 
-console.log(Boolean(example1));
+console.log(example1);
 
 
-// callback function
-// 42. find()
+// callback function it returns the first one
+// 43. findIndex()
