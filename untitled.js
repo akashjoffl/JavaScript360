@@ -1,5 +1,6 @@
-let example1 = 111;
+let example1 = 111111.222226;
 
-console.log(example1.toExponential(2));
+console.log(example1.toFixed(2));
 
-// taking our number and making it as an exponential number
+// toFix allows us to findout how many places back we want to go 
+//and will roundup, rounddown accordingly  
