@@ -1,11 +1,12 @@
-let example1 = [1, 2, 3, 4, 5];
+let example1 = [1, 2, 3, 4, 5, 5, 6, 5];
 
 console.log(
-    example1.join('Hello')
+    example1.lastIndexOf((5))
 );
 
 
 
-// joining the value and making a one long string
-// 47. join()
+// finding the first index from last
+// 48. lastIndexOf()
+
 
