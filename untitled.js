@@ -1,14 +1,12 @@
-let example1 = [1, 2, 3, 4, 5, 5, 6, 5].reduce(
-    (currentTotal, currentValue) => {
-        console.log(currentTotal);
-    
-    return currentTotal + currentValue
-    });
-    console.log(example1);
+let example1 = [1, 2, 3, 4, 5, 5, 6, 5];
 
-// adding the bunch of value, takes in two required parameters in callback
-// takes in total and add into current
-// 52. reduce()
+let example2 = example1.shift();
+
+console.log(example1);
+
+// removing the first value of the array
+// 53. shift()
+
 
 
 
