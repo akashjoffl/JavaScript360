@@ -1,6 +1,7 @@
-let example1 = 111111.222226;
+let example1 = 10.56;
 
-console.log(example1.toFixed(2));
+console.log(example1.toPrecision(2));
 
-// toFix allows us to findout how many places back we want to go 
-//and will roundup, rounddown accordingly  
+// toPrecision will round and return with the provided amount of length
+
+// 34. toPrecision()
