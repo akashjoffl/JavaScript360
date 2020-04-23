@@ -1,11 +1,12 @@
-let example1 = [1, 2, 3, 4, 5, 5, 6, 5].some((element) => {
-    return element > 5;
-})
+let example1 = [1, 10, 2, 3, 4, 5, 5, 6, 5, 10].sort((a, b) => {
+    return a - b;
+});
 
 console.log(example1);
 
-// just checks to make sure least one element in the callback function is passes
-// 55. some()
+// to reorganize an array 
+// 56. sort()
+
 
 
 
