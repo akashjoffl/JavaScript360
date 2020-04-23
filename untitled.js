@@ -1,11 +1,12 @@
-let example1 = [1, 2, 3, 4, 5, 5, 6, 5];
+let example1 = [1, 2, 3, 4, 5, 5, 6, 5].some((element) => {
+    return element > 5;
+})
 
-let example2 = example1.slice(2, 4);
+console.log(example1);
 
-console.log(example2);
+// just checks to make sure least one element in the callback function is passes
+// 55. some()
 
-// copying certain elements in an array
-// 54. slice()
 
 
 
