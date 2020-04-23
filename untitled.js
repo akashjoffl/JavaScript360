@@ -1,13 +1,10 @@
-let example1 = 
-[1, 2, 3, 4, 5].every();
+let example1 = [1, 2, 3, 4, 5];
 
-function greaterThan5(){
-    
-}
-//let result = 
+let result = example1.fill(1, 1, 4);
 
-//console.log(result);
+console.log(result);
 
 
-// making an array into objects
-// 39. every()
+// fill method that allows to fill the entire length of an array 
+// overwrite the value of an array with a certain value
+// 40. fill()
