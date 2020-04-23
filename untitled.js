@@ -1,12 +1,14 @@
-let example1 = [1, 2, 3, 4, 5].findIndex((element) => {
-    return element > 3;
+let example1 = [1, 2, 3, 4, 5];
+
+/* for (let i = 0; i < example1.length; i++) {
+    console.log(example1[i]) 
+} */
+
+example1.forEach((element, index, array) => {
+    console.log(element);
+    console.log(index); // this is optional 
+    console.log(array); // this is optional 
 })
 
-
-// let result = 
-
-console.log(example1);
-
-
-// callback function it returns the first one
-// 43. findIndex()
+// callback function iterate through entire array
+// 44. forEach()
