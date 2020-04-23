@@ -1,7 +1,11 @@
-let example1 = [1, 2, 5];
-let example2 = [4, 5, 6, [1, 2, 3]];
-let example3 = [true, false]
-let result = example1.concat(example2, example3); 
+let example1 = [true, false, 1, 2, 3, 4, 5];
+
+let result = example1.copyWithin(2, 0, example1.length -1);
+
 
 console.log(result);
-// 36. concat()
+
+// copyWithin copy values
+
+
+// 37. copyWithin()
