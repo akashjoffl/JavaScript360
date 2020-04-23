@@ -1,10 +1,10 @@
 let example1 = [1, 2, 3, 4, 5];
 
 console.log(
-    example1.includes(2, 3)
+    example1.indexOf(2)
 );
 
 
 
-// finding out if the array has a particular value
-// 45. includes()
+// just to check if the index is in there && there's only one return here
+// 46. indexOf()
