@@ -1,7 +1,12 @@
-let example1 = 10.56;
+let example1 = [1, 2, 5, true, 'Hello', {hi: true}];
 
-console.log(example1.toPrecision(2));
+console.log(
+    typeof example1
+    );
 
-// toPrecision will round and return with the provided amount of length
+console.log(
+    Array.isArray({})
+);
+// 
 
-// 34. toPrecision()
+// 35. Array Properties
