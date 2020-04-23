@@ -1,6 +1,5 @@
-let example1 = '1112.111 fs';
+let example1 = 111;
 
-console.log(parseInt(example1));
-console.log(parseFloat(example1));
+console.log(example1.toExponential(2));
 
-// parses the Args and returns a interger point number
+// taking our number and making it as an exponential number
