@@ -1,11 +1,12 @@
 let example1 = [true, false, 1, 2, 3, 4, 5];
+let iterator = example1.entries();
+//console.log(iterator)
 
-let result = example1.copyWithin(2, 0, example1.length -1);
+for(let i = 0; i < example1.length; i++){
+    let result = iterator.next().value;
+    console.log(result);
+}
 
 
-console.log(result);
-
-// copyWithin copy values
-
-
-// 37. copyWithin()
+// making an array into objects
+// 38. entries()
