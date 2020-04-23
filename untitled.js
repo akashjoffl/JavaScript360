@@ -1,11 +1,10 @@
-let example1 = [1, 10, 2, 3, 4, 5, 5, 6, 5, 10].sort((a, b) => {
-    return a - b;
-});
+let example1 = [1, 10, 2, 3, 4, 5, 5, 6, 5, 10];
 
-console.log(example1);
+console.log(example1.toString());
 
-// to reorganize an array 
-// 56. sort()
+// convert the array into strings seperated by commas 
+// 57. toString()
+
 
 
 
