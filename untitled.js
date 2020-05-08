@@ -1,7 +1,7 @@
-function equalityOperator(a, b) {
-    return 2 == 2 || 3 < 2 
-    // && (AND operator), || (OR operator)
+function ternaryOperator(a, b) {
+    let example = a > b ? 'a' : (2 > 10) ? 'Yes' : 'No';
+    return example;
 }
 
-let result = equalityOperator(2, 4);
+let result = ternaryOperator(3, 10);
 console.log(result);
