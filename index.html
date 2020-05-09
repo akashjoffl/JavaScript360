@@ -1,10 +1,11 @@
 <script>
 
-let example1 = {hello: 'World', bye: 'Now'};
-let example2 = Object.assign({}, example1);
-example2.hello = 'Today';
+let example1 = {
+    hello: 'World', 
+    bye: 'Now', 
+    test: {example2: 'example3'} 
+};
 
-console.log(example2);
-
-
+console.log(Object.entries(example1));
+ console.log(example1);
 </script>
