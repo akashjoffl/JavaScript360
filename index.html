@@ -3,9 +3,10 @@
 let example1 = {
     hello: 'World', 
     bye: 'Now', 
-    test: {example2: 'example3'} 
 };
+let example2 = Object.freeze(example1);
+example2.hello = true;
 
-console.log(Object.entries(example1));
- console.log(example1);
+console.log(example2);
+
 </script>
