@@ -1,6 +1,9 @@
-for (let i = 0; i < 5; i++) {
-
+function run() {
+    const   example1 = { test: true};
+            example1.test = false;
+            example1.test2 = true; 
+    console.log(example1);
 }
-console.log(i);
 
-// let is only inside the scope 
+
+    run();
