@@ -1,9 +1,7 @@
-function run() {
-    const   example1 = { test: true};
-            example1.test = false;
-            example1.test2 = true; 
-    console.log(example1);
-}
+function run(input) {
+    if(input) {
+        console.log(input)
+    }
+} 
 
-
-    run();
+run(2+2 );
