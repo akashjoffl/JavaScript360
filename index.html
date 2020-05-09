@@ -4,9 +4,11 @@ let example1 = {
     hello: 'World', 
     bye: 'Now', 
 };
-let example2 = Object.freeze(example1);
-example2.hello = true;
 
-console.log(example2);
+let example2 = Object.assign({}, example1);
+//console.log(example2)
+console.log(Object.is('hello', 'hello'));
 
+
+// is() tells us if two values are the same
 </script>
