@@ -1,7 +1,13 @@
 function run(input) {
-    if(input) {
-        console.log(input)
+    if(true) {
+        console.log(input);
+    }
+
+    if(false) {
+        console.log(true);
+    } else {
+        console.log('Fail')
     }
 } 
 
-run(2+2 );
+run(true);
