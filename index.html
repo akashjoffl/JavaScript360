@@ -5,10 +5,9 @@ let example1 = {
     bye: 'Now', 
 };
 
-let example2 = Object.assign({}, example1);
-//console.log(example2)
-console.log(Object.is('hello', 'hello'));
+Object.freeze(example1);
 
+console.log(Object.isFrozen(example1))
 
-// is() tells us if two values are the same
+// isFrozem() check if an object is frozen
 </script>
