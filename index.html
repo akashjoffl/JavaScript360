@@ -1,14 +1,10 @@
 <script>
 
-let example1 = {
-    test: 1,
-    test3: {
-        hello:5
-    },
-    test2: 2};
+let example1 = {hello: 'World', bye: 'Now'};
+let example2 = Object.assign({}, example1);
+example2.hello = 'Today';
 
-    console.log(example1.test3);
-
+console.log(example2);
 
 
 </script>
