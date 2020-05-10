@@ -1,13 +1,17 @@
 function run(input) {
-    if(true) {
-        console.log(input);
+    switch(input){
+        case 'Coding':
+            console.log('Akash loves coding');
+            break;
+        case 'Eating':
+            console.log('Hahaa he love it');
+            break;
+        case 'Money':
+            console.log('Akash smoke that shit');
+            break;
+        default:
+            console.log('GTFO lol');
     }
+}
 
-    if(false) {
-        console.log(true);
-    } else {
-        console.log('Fail')
-    }
-} 
-
-run(true);
+run('Money');
