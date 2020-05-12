@@ -1,17 +1,15 @@
 function run(input) {
-    let i = input;
-
-    do {
-        console.log('hit');
+    try {
+        throw 42;
     }
-    while(false) {
-        i++
-        console.log(i);
+    catch(e){
+        console.log(e);
     }
-
+    finally{
+        console.log(true);
+    }
 }
 
 run(5);
 
-// doWhileLoop, atleast running the code once even 
-// if it evaluates false
+// tryCatchFinally to find the error
