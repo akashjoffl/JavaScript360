@@ -1,17 +1,16 @@
 function run(input) {
-    switch(input){
-        case 'Coding':
-            console.log('Akash loves coding');
+    let i = input;
+    while(true){
+        i++;
+        console.log(i);
+
+        if (i === 9){
             break;
-        case 'Eating':
-            console.log('Hahaa he love it');
-            break;
-        case 'Money':
-            console.log('Akash smoke that shit');
-            break;
-        default:
-            console.log('GTFO lol');
+        }
     }
 }
 
-run('Money');
+run(0);
+
+
+// doWhile
