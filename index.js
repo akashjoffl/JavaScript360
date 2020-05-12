@@ -1,16 +1,17 @@
 function run(input) {
     let i = input;
-    while(true){
-        i++;
-        console.log(i);
 
-        if (i === 9){
-            break;
-        }
+    do {
+        console.log('hit');
     }
+    while(false) {
+        i++
+        console.log(i);
+    }
+
 }
 
-run(0);
+run(5);
 
-
-// doWhile
+// doWhileLoop, atleast running the code once even 
+// if it evaluates false
