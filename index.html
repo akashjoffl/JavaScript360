@@ -1,12 +1,18 @@
-<button onclick="myFunction(event)">Hello World</button>
-<button onmousedown="myFunction(event)">Hello World</button>
-<button onmouseup="myFunction(event)">Hello World</button>
+<button
+onmouseenter = "myF(this)"
+onmouseleave = "myF2(this)"
+>Hello World</button>
 
 
 <script>
 
-function myFunction(event){
+function myF(ex){
+    ex.style.height = "100px";
     console.log(event);
+}
+
+function myF2(ex){
+    ex.style.height = "25px";
 }
 
 </script>
