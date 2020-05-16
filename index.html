@@ -1,16 +1,18 @@
 <body>
-    <input type="text" oncopy="myFunction(this)" 
-    oncut ="myFunction(this)" 
-    onpaste="myFunction(this)">
-<script>
 
-function myFunction(ex){
-    console.log(event);
-}
+  <div id="example" class="ex">
+    <h1 id="hello">Hello World</h1>
+    <h1>Hello Universe</h1>
+  </div>
 
-// onCopy- fires off the event when you copy
-// onCut- fires off the event when you cut
-// onPaste- fires off the event when you paste
-</script>
+  <script>
+      let example = document.getElementById("example");
+      let example2 = document.getElementsByClassName("ex");
+      let example3 = document.getElementsByTagName("h1");
+      console.log(example3);
+
+    // getElementByID- this is unique
+    // getElementByClass- not unique, why we get the array back
+    // getElementByTag- this allows to grab elements by tags
+  </script>
 </body>
-
