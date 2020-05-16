@@ -1,5 +1,4 @@
-<body onscroll="myFunction(this)">
-    <h1>Hello World</h1>
+<body onpageshow="myFunction(this)">
     <h1>Hello World</h1>
 
 <script>
@@ -7,6 +6,9 @@
 function myFunction(ex){
     console.log(event);
 }
+
+// onpageshow() -> fires when page refreshes
+// onpagehide() -> fires when page closed
 
 </script>
 </body>
