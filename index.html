@@ -1,18 +1,16 @@
 <body>
-
-    <img src="https://avatars3.githubusercontent.com/u/31827352?s=
-    400&u=87e7543d24e71fa949d191143dd8de9c9c68d873&v=4">
-
-    <div ondragleave="myFunction(this)"
-    style="height: 500px; width: 500px; background-color: aquamarine;">
-</div>
+    <input type="text" oncopy="myFunction(this)" 
+    oncut ="myFunction(this)" 
+    onpaste="myFunction(this)">
 <script>
 
 function myFunction(ex){
     console.log(event);
 }
 
-// ondragleave- fires off when you leave the element
+// onCopy- fires off the event when you copy
+// onCut- fires off the event when you cut
+// onPaste- fires off the event when you paste
 </script>
 </body>
 
