@@ -9,11 +9,17 @@
 
   <script>
     let example = document.getElementById("btn");
-    example.style.color = "Grey"
-    example.setAttribute("disabled", "");
-    console.log(example);
-
-    let example2 = document.getElementById("hello");
-    example2.style.backgroundColor = "Green";
+    console.log(example.classList.contains("sweetStyles"));
+    example.classList.add("sweetStyles"); // to ADD the styles
+    console.log(example.classList.contains("sweetStyles")); // to check if the styles
+    //exists in that element
+    // example.classList.add("sweetStyles"); -> to REMOVE
     </script>
+
+    <style>
+      .sweetStyles {
+        color: white;
+        background-color: tomato;
+      }
+    </style>
 </body>
