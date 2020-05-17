@@ -2,17 +2,14 @@
 
   <div id="example" class="ex">
     <h1 id="hello">Hello World</h1>
-    <h1>Hello Universe</h1>
   </div>
 
-  <script>
-      let example = document.getElementById("example");
-      let example2 = document.getElementsByClassName("ex");
-      let example3 = document.getElementsByTagName("h1");
-      console.log(example3);
+  <button id="btn">Test Button</button>
+  <h1 class="ex">Ex</h1>
 
-    // getElementByID- this is unique
-    // getElementByClass- not unique, why we get the array back
-    // getElementByTag- this allows to grab elements by tags
-  </script>
+  <script>
+    let example = document.getElementById("btn");
+    example.setAttribute("disabled", "");
+    console.log(example);
+    </script>
 </body>
