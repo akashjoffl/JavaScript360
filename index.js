@@ -1,8 +1,5 @@
 const exampleArray = ["Hello", "Bye", "Hi", "Yolo"];
+let exampleArray2 = [1, 2, 3];
+exampleArray2.push(...exampleArray);
 
-for (const word of exampleArray){
-    console.log(word);
-}
-
-// of -> value
-// in -> index
+console.log(exampleArray2);
