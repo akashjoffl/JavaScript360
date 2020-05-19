@@ -1,4 +1,11 @@
-let lastName = "Jeganath";
-let example = `Akash ${lastName} is AWESOME!!!`;
+let exampleObject = {
+    first: "Akash",
+    last: "Jeganath",
+    codingStatus: "God Mode"
+};
 
-console.log(example)
+const {first, last, codingStatus} = exampleObject;
+
+console.log(first, codingStatus);
+// destructure Objects
+
