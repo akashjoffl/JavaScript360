@@ -1,5 +1,8 @@
-const exampleArray = ["Hello", "Bye", "Hi", "Yolo"];
-let exampleArray2 = [1, 2, 3];
-exampleArray2.push(...exampleArray);
+function add(...numbers){
+    console.log(numbers);
+    for (const num of numbers){
+        console.log(num);
+    }
+}
 
-console.log(exampleArray2);
+add(2, 3, 4, 5, 6);
