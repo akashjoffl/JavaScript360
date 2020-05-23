@@ -1,5 +1,5 @@
-function noParamsEntered(x, z = 5, y = 10) {
-    console.log(x + y + z)
+function addTwoNumbers(a, b) {
+    console.log(a + b);
 }
 
-noParamsEntered(5);
+addTwoNumbers(5,2);
