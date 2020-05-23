@@ -2,4 +2,5 @@ function addTwoNumbers(a, b) {
     console.log(a + b);
 }
 
-addTwoNumbers(5,2);
+let add = addTwoNumbers;
+add(2, 4);
