@@ -1,8 +1,9 @@
-function add(x, y) {
-    if (y === undefined) {
-        y = 0;
+function add() {
+    let array = [];
+    for (let i = 0; i < arguments.length; i++) {
+        array.push(arguments[i]);
     }
-    console.log(x + y);
+    console.log(array);
 }
 
-add(3);
+add(3, 555, 69); 
