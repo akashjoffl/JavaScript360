@@ -1,3 +1,5 @@
-const exampleArray = [1, 2, 3, 4, 5].map(element =>  element + 1);
+function noParamsEntered(x, z = 5, y = 10) {
+    console.log(x + y + z)
+}
 
-console.log(exampleArray);
+noParamsEntered(5);
