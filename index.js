@@ -1,8 +1,3 @@
-function add(...numbers){
-    console.log(numbers);
-    for (const num of numbers){
-        console.log(num);
-    }
-}
+const exampleArray = [1, 2, 3, 4, 5].map(element =>  element + 1);
 
-add(2, 3, 4, 5, 6);
+console.log(exampleArray);
