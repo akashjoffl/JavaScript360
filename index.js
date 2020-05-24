@@ -1,2 +1,7 @@
-console.log(new Date("01/15/2020"));
-console.log(new Date("Jan 15 2020"));
+let exDate = new Date();
+
+console.log(exDate);
+console.log(exDate.getFullYear());
+console.log(exDate.getTime());
+exDate.setFullYear(2016);
+console.log(exDate);
